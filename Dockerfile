@@ -4,7 +4,7 @@ RUN apk add alpine-sdk ca-certificates
 WORKDIR /go/src/github.com/grepplabs/kafka-proxy
 COPY . .
 
-ARG MAKE_TARGET=build
+ARG MAKE_TARGET=all
 ARG GOOS=linux
 ARG GOARCH=amd64
 RUN make -e GOARCH=${GOARCH} -e GOOS=${GOOS} clean ${MAKE_TARGET}

@@ -7,8 +7,10 @@ require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
 	github.com/cenkalti/backoff v1.1.0
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/elazarl/goproxy v0.0.0-20171101143503-a96fa3a31826
 	github.com/fsnotify/fsnotify v1.4.9
+	github.com/go-kit/kit v0.9.0
 	github.com/go-ldap/ldap/v3 v3.2.3
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
 	github.com/golang/protobuf v1.4.2
